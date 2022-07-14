@@ -1,5 +1,8 @@
 .time{
-    height: 10%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 30%;
     padding: 25px;
 }
 

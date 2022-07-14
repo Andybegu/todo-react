@@ -1,5 +1,5 @@
 import  {Component} from "react";
-import Tabs from "./tabs";
+import Tabs from "../../tabs";
 import './time.css'
 
 class Time extends Component{
