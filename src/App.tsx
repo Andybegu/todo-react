@@ -4,7 +4,7 @@ import TimeTracker from "./tracker";
 
 const App: FC = () => {
   return (
-    <div>
+    <div className="App">
       <TimeTracker/>
     </div>
   )

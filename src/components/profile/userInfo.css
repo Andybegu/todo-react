@@ -9,15 +9,17 @@
 }
 
 .userInfo img{
-    width: 90px;
+    width: 70px;
+    height:70px ;
     border: 2px solid #fff;
     border-radius: 50%;
+    object-fit: cover;
 }
 .userInfo h4{
     margin-top: 40px;
     font-size: 0.9rem;
     font-weight: normal;
-    color: var(--Pale-Blue)
+   
 }
 .userInfo h1{
     font-weight: lighter;
@@ -36,5 +38,6 @@
     }
     .infoContainer{
         padding-left: 20px;
+        background-color: none;
     }
 }
