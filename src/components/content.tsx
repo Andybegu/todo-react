@@ -2,11 +2,15 @@ import React, { useEffect, useState} from "react";
 import Item from "./item";
 
 
-import './Content.css';
 
-const TabContent = (props)=>{
-    const [data, setData] = useState([]);
-    const getData = ()=> {
+import './Content.css';
+// interface user{
+//     title:string;
+//     timeframes:string;
+// }
+const TabContent = (props:any)=>{
+    const [data, setData] = useState([] as any[]);
+    const getData=()=> {
         fetch('https://wookie.codesubmit.io/time-tracking',
         {
             headers : {

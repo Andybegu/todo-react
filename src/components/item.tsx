@@ -1,12 +1,12 @@
 
 import { FC } from 'react';
 import './item.css';
-export interface Props{
+export interface IData{
     title:string;
     hours:number;
     prevLog:number;
 }
-const Item:FC<Props> = ({title,hours,prevLog})=>{
+const Item:FC<IData> = ({title,hours,prevLog})=>{
     return(
         <div className={"trackerItem "+title}>
             <div className="trackerInfo">
