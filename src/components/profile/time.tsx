@@ -1,4 +1,4 @@
-import  {Component} from "react";
+import React, {Component} from "react";
 import Tabs from "../../tabs";
 import './time.css'
 
@@ -7,12 +7,13 @@ class Time extends Component{
         Tabs();
     }
     
-    changeActiveTab = (e:any)=>{
+    changeActiveTab = (e:React.MouseEvent<HTMLElement|null>)=>{
         let tabs = document.getElementsByClassName('tab');
         for(let i=0; i<tabs.length; i++){
             tabs[i].classList.remove('active');
         }
-        e.target.classList.add('active');
+        const target = e.target as HTMLInputElement;
+        target.classList.add('active');
         Tabs();
     }
     render(){

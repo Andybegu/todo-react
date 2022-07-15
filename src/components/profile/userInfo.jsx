@@ -9,7 +9,7 @@ const UserInfo = ()=>{
             <img src={userImg} alt="Jeremy Robson"/>
             <div className="infoContainer">
                 <h4>Report for</h4>
-                <h1>Jeremy Robson</h1>
+                <h1>andy pop</h1>
             </div>
         </div>
     );
